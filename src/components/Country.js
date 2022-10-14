@@ -12,7 +12,7 @@ const Country = (countries) => {
                 <button onClick={() => {
                     let copy = countries[index]
                     countriess = []
-                    countriess[0] = copy // PROBLEM
+                    countriess[0] = copy // NU MERGE RAHATUL ASTA (ADICA SA FAC ARRAY-ul countriess de 1 singur element, cred ca e expected din moment onChange-ul ala e prioritar si perpetuu pe pagina, cum rezolv?)
                 }}>show</button>
             </li> 
         )
